@@ -1,0 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package com.chortitzer.lab.semillas.utils;
+
+/**
+ *
+ * @author Industria
+ */
+import com.chortitzer.lab.semillas.domain.LabSemillasMuestreadores;
+import java.awt.Component;
+import javax.swing.DefaultListCellRenderer;
+import javax.swing.JList;
+
+public class MuestreadoresListCellRenderer extends DefaultListCellRenderer {
+
+    @Override
+    public Component getListCellRendererComponent(
+            JList list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
+        super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
+        if (value instanceof LabSemillasMuestreadores) {
+            LabSemillasMuestreadores c = (LabSemillasMuestreadores) value;
+            setText(c.getNombre());
+        }
+        return this;
+    }
+}

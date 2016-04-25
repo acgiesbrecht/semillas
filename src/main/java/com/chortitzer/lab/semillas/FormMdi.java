@@ -5,9 +5,16 @@
  */
 package com.chortitzer.lab.semillas;
 
+import com.chortitzer.lab.semillas.frames.FormCategorias;
+import com.chortitzer.lab.semillas.frames.FormClientes;
+import com.chortitzer.lab.semillas.frames.FormEspecies;
+import com.chortitzer.lab.semillas.frames.FormInformes;
+import com.chortitzer.lab.semillas.frames.FormMuestras;
+import com.chortitzer.lab.semillas.frames.FormResultados;
 import java.awt.BorderLayout;
 import javax.swing.JInternalFrame;
 import javax.swing.JPanel;
+import javax.swing.UIManager;
 
 /**
  *
@@ -41,6 +48,8 @@ public class FormMdi extends javax.swing.JFrame {
         mnuCategorias = new javax.swing.JMenuItem();
         mnuEspecies = new javax.swing.JMenuItem();
         jSeparator2 = new javax.swing.JPopupMenu.Separator();
+        mnuInformes = new javax.swing.JMenuItem();
+        jSeparator3 = new javax.swing.JPopupMenu.Separator();
         exitMenuItem = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -95,6 +104,15 @@ public class FormMdi extends javax.swing.JFrame {
         });
         mnuMain.add(mnuEspecies);
         mnuMain.add(jSeparator2);
+
+        mnuInformes.setText("Informes");
+        mnuInformes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mnuInformesActionPerformed(evt);
+            }
+        });
+        mnuMain.add(mnuInformes);
+        mnuMain.add(jSeparator3);
 
         exitMenuItem.setMnemonic('x');
         exitMenuItem.setText("Exit");
@@ -152,6 +170,11 @@ public class FormMdi extends javax.swing.JFrame {
         addFrame(formMuestras, "Muestras");
     }//GEN-LAST:event_mnuMuestrasActionPerformed
 
+    private void mnuInformesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnuInformesActionPerformed
+        FormInformes formInformes = new FormInformes();
+        addFrame(formInformes, "Informes");
+    }//GEN-LAST:event_mnuInformesActionPerformed
+
     public void addFrame(JPanel panel, String title) {
         try {
             JInternalFrame[] children = desktopPane.getAllFrames();
@@ -169,9 +192,9 @@ public class FormMdi extends javax.swing.JFrame {
             desktopPane.add(frame);
             frame.setVisible(true);
             frame.setMaximum(true);
-            
+
 //checking to see if the child form already exist
-          /*  
+            /*
              }*/
         } catch (Exception e) {
             e.printStackTrace();
@@ -185,8 +208,21 @@ public class FormMdi extends javax.swing.JFrame {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
          */
+        try {
+            /*for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+             System.out.println(info.getName());
+             if ("Nimbus".equals(info.getName())) {
+             javax.swing.UIManager.setLookAndFeel(info.getClassName());
+             break;
+             }*/
+            UIManager.setLookAndFeel(javax.swing.UIManager.getSystemLookAndFeelClassName());
+            UIManager.put("Button.defaultButtonFollowsFocus", Boolean.TRUE);
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
         //</editor-fold>
 
         /* Create and display the form */
@@ -202,10 +238,12 @@ public class FormMdi extends javax.swing.JFrame {
     private javax.swing.JMenuItem exitMenuItem;
     private javax.swing.JPopupMenu.Separator jSeparator1;
     private javax.swing.JPopupMenu.Separator jSeparator2;
+    private javax.swing.JPopupMenu.Separator jSeparator3;
     private javax.swing.JMenuBar menuBar;
     private javax.swing.JMenuItem mnuCategorias;
     private javax.swing.JMenuItem mnuClientes;
     private javax.swing.JMenuItem mnuEspecies;
+    private javax.swing.JMenuItem mnuInformes;
     private javax.swing.JMenu mnuMain;
     private javax.swing.JMenuItem mnuMuestras;
     private javax.swing.JMenuItem mnuResultados;
