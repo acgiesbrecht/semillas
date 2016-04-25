@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package com.chortitzer.lab.semillas.domain;
 
 import java.io.Serializable;
@@ -51,6 +50,7 @@ import javax.xml.bind.annotation.XmlRootElement;
     @NamedQuery(name = "LabSemillasResultados.findBySustrato", query = "SELECT l FROM LabSemillasResultados l WHERE l.sustrato = :sustrato"),
     @NamedQuery(name = "LabSemillasResultados.findBySemillasViables", query = "SELECT l FROM LabSemillasResultados l WHERE l.semillasViables = :semillasViables")})
 public class LabSemillasResultados implements Serializable {
+
     private static final long serialVersionUID = 1L;
     @Id
     @Basic(optional = false)
@@ -70,6 +70,14 @@ public class LabSemillasResultados implements Serializable {
     private String materiaInerteDescripcion2;
     @Column(name = "materia_inerte_valor_2")
     private BigDecimal materiaInerteValor2;
+    @Column(name = "materia_inerte_descripcion_3")
+    private String materiaInerteDescripcion3;
+    @Column(name = "materia_inerte_valor_3")
+    private BigDecimal materiaInerteValor3;
+    @Column(name = "materia_inerte_descripcion_4")
+    private String materiaInerteDescripcion4;
+    @Column(name = "materia_inerte_valor_4")
+    private BigDecimal materiaInerteValor4;
     @Column(name = "otras_semillas_descripcion")
     private String otrasSemillasDescripcion;
     @Column(name = "otras_semillas_valor")
@@ -94,6 +102,8 @@ public class LabSemillasResultados implements Serializable {
     private String sustrato;
     @Column(name = "semillas_viables")
     private BigDecimal semillasViables;
+    @Column(name = "observaciones")
+    private String observaciones;
     @JoinColumn(name = "id_muestra", referencedColumnName = "id", insertable = false, updatable = false)
     @OneToOne(optional = false)
     private LabMuestrasSemillas labMuestrasSemillas;
@@ -289,5 +299,75 @@ public class LabSemillasResultados implements Serializable {
     public String toString() {
         return "com.chortitzer.lab.semillas.LabSemillasResultados[ idMuestra=" + idMuestra + " ]";
     }
-    
+
+    /**
+     * @return the materiaInerteDescripcion3
+     */
+    public String getMateriaInerteDescripcion3() {
+        return materiaInerteDescripcion3;
+    }
+
+    /**
+     * @param materiaInerteDescripcion3 the materiaInerteDescripcion3 to set
+     */
+    public void setMateriaInerteDescripcion3(String materiaInerteDescripcion3) {
+        this.materiaInerteDescripcion3 = materiaInerteDescripcion3;
+    }
+
+    /**
+     * @return the materiaInerteValor3
+     */
+    public BigDecimal getMateriaInerteValor3() {
+        return materiaInerteValor3;
+    }
+
+    /**
+     * @param materiaInerteValor3 the materiaInerteValor3 to set
+     */
+    public void setMateriaInerteValor3(BigDecimal materiaInerteValor3) {
+        this.materiaInerteValor3 = materiaInerteValor3;
+    }
+
+    /**
+     * @return the materiaInerteDescripcion4
+     */
+    public String getMateriaInerteDescripcion4() {
+        return materiaInerteDescripcion4;
+    }
+
+    /**
+     * @param materiaInerteDescripcion4 the materiaInerteDescripcion4 to set
+     */
+    public void setMateriaInerteDescripcion4(String materiaInerteDescripcion4) {
+        this.materiaInerteDescripcion4 = materiaInerteDescripcion4;
+    }
+
+    /**
+     * @return the materiaInerteValor4
+     */
+    public BigDecimal getMateriaInerteValor4() {
+        return materiaInerteValor4;
+    }
+
+    /**
+     * @param materiaInerteValor4 the materiaInerteValor4 to set
+     */
+    public void setMateriaInerteValor4(BigDecimal materiaInerteValor4) {
+        this.materiaInerteValor4 = materiaInerteValor4;
+    }
+
+    /**
+     * @return the observaciones
+     */
+    public String getObservaciones() {
+        return observaciones;
+    }
+
+    /**
+     * @param observaciones the observaciones to set
+     */
+    public void setObservaciones(String observaciones) {
+        this.observaciones = observaciones;
+    }
+
 }

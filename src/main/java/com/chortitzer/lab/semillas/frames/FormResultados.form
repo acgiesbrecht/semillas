@@ -57,94 +57,126 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="masterScrollPane" pref="1068" max="32767" attributes="0"/>
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="446" max="32767" attributes="0"/>
-                      <Component id="saveButton" linkSize="1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="snedButton" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="printButton" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="refreshButton" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="otrasSemillasValorLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="saveButton" linkSize="1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="snedButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="printButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="refreshButton" linkSize="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="otrasSemillasValorField1" max="32767" attributes="0"/>
+                      </Group>
                   </Group>
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="semillasViablesLabel1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="semillasViablesLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="idMuestraLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="fechaAnalisisLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="semillasPurasLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="materiaInerteDescripcion1Label" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="materiaInerteValor1Label" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="materiaInerteDescripcion2Label" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="materiaInerteValor2Label" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="otrasSemillasDescripcionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="otrasSemillasValorLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="idMuestraField" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
-                                          <Component id="jXDatePicker1" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
-                                          <Component id="materiaInerteValor1Field" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="semillasPurasField" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="materiaInerteValor2Field" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
-                                          <Component id="otrasSemillasValorField" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
-                                          <Component id="otrasSemillasDescripcionField" max="32767" attributes="0"/>
-                                          <Component id="cboMID1" min="-2" pref="150" max="-2" attributes="0"/>
-                                          <Component id="cboMID2" min="-2" pref="150" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="humedadLabel" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                                          <Component id="humedadField" max="32767" attributes="0"/>
-                                      </Group>
-                                      <Component id="semillasViablesLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
+                                  <Component id="idMuestraLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="fechaAnalisisLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="semillasPurasLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="materiaInerteDescripcion1Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="materiaInerteValor1Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="materiaInerteDescripcion2Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="materiaInerteValor2Label" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="semillasViablesLabel3" min="-2" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="tratamientoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="sustratoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="cantidadDiasLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="temperaturaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="temperaturaField" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
-                                          <Component id="tratamientoField" max="32767" attributes="0"/>
-                                          <Component id="sustratoField" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
-                                          <Component id="cantidadDiasField" min="-2" pref="50" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="plantasNormalesLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="semillasDurasLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="plantasAnormalesLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="semillasMuertasLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                          <Component id="semillasMuertasField" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="plantasAnormalesField" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="semillasDurasField" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="plantasNormalesField" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="idMuestraField" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
+                                  <Component id="jXDatePicker1" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <Component id="materiaInerteValor1Field" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="semillasPurasField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="materiaInerteValor2Field" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="cboMID1" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <Component id="cboMID2" min="-2" pref="150" max="-2" attributes="0"/>
                               </Group>
                           </Group>
+                          <Component id="semillasViablesLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="materiaInerteDescripcion2Label1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="materiaInerteValor2Label1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="materiaInerteValor3" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="cboMID3" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="materiaInerteDescripcion2Label2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="materiaInerteValor2Label2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="materiaInerteValor4" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="cboMID4" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="otrasSemillasDescripcionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="otrasSemillasValorLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="otrasSemillasValorField" max="32767" attributes="0"/>
+                                  <Component id="otrasSemillasDescripcionField" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="semillasViablesLabel3" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="plantasNormalesLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="semillasDurasLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="plantasAnormalesLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="semillasMuertasLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="semillasMuertasField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="plantasAnormalesField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="semillasDurasField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="plantasNormalesField" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="humedadLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                  <Component id="humedadField" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="semillasViablesLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="semillasViablesLabel1" min="-2" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="semillasViablesLabel" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="semillasViablesField" min="-2" pref="64" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="tratamientoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="sustratoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cantidadDiasLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="temperaturaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="temperaturaField" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="tratamientoField" max="32767" attributes="0"/>
+                                  <Component id="sustratoField" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <Component id="cantidadDiasField" min="-2" pref="50" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -158,47 +190,46 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="masterScrollPane" min="-2" pref="197" max="-2" attributes="0"/>
-              <EmptySpace pref="17" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="idMuestraLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="idMuestraField" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="masterScrollPane" min="-2" pref="197" max="-2" attributes="0"/>
+                      <EmptySpace pref="17" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="idMuestraLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="idMuestraField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fechaAnalisisLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jXDatePicker1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Component id="semillasViablesLabel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="semillasViablesLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="humedadField" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="humedadLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="semillasViablesLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="semillasViablesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="semillasViablesField" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="fechaAnalisisLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jXDatePicker1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="semillasPurasLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="semillasPurasField" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="semillasViablesLabel2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="semillasPurasLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="semillasPurasField" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="materiaInerteDescripcion1Label" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="cboMID1" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="materiaInerteValor1Label" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="materiaInerteValor1Field" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="materiaInerteDescripcion2Label" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="cboMID2" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="materiaInerteValor2Label" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="materiaInerteValor2Field" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="semillasViablesLabel3" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" max="-2" attributes="0"/>
@@ -224,29 +255,7 @@
                               <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                  </Group>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="otrasSemillasDescripcionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="otrasSemillasDescripcionField" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="otrasSemillasValorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="otrasSemillasValorField" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="semillasViablesLabel4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="humedadField" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
-                          <Component id="humedadLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="temperaturaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="temperaturaField" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
@@ -267,15 +276,75 @@
                           <Component id="cantidadDiasField" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
                       </Group>
                   </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="materiaInerteDescripcion1Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cboMID1" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="materiaInerteValor1Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="materiaInerteValor1Field" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="materiaInerteDescripcion2Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cboMID2" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="materiaInerteValor2Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="materiaInerteValor2Field" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="materiaInerteDescripcion2Label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cboMID3" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="materiaInerteValor2Label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="materiaInerteValor3" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="materiaInerteDescripcion2Label2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cboMID4" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="materiaInerteValor2Label2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="materiaInerteValor4" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              <Component id="otrasSemillasValorLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="otrasSemillasDescripcionField" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Component id="otrasSemillasDescripcionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="otrasSemillasValorField" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
               </Group>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="semillasViablesLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="semillasViablesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="semillasViablesField" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="otrasSemillasValorLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="otrasSemillasValorField1" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
               </Group>
-              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="saveButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="refreshButton" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -598,7 +667,7 @@
         <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.semillasPuras}" target="semillasPurasField" targetPath="text" updateStrategy="0" immediately="false">
           <Property name="incompletePathValue" type="java.lang.String" value="null"/>
         </BindingProperty>
-        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="semillasPurasField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="semillasPurasField" targetPath="enabled" updateStrategy="0" immediately="false"/>
       </BindingProperties>
     </Component>
     <Component class="javax.swing.JTextField" name="materiaInerteValor1Field">
@@ -612,6 +681,7 @@
     <Component class="javax.swing.JTextField" name="materiaInerteValor2Field">
       <BindingProperties>
         <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.materiaInerteValor2}" target="materiaInerteValor2Field" targetPath="text" updateStrategy="0" immediately="false">
+          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
           <Property name="incompletePathValue" type="java.lang.String" value="null"/>
         </BindingProperty>
         <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="materiaInerteValor2Field" targetPath="enabled" updateStrategy="1" immediately="false"/>
@@ -624,13 +694,16 @@
         </BindingProperty>
         <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="otrasSemillasDescripcionField" targetPath="enabled" updateStrategy="1" immediately="false"/>
       </BindingProperties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="otrasSemillasDescripcionFieldActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="otrasSemillasValorField">
       <BindingProperties>
         <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.otrasSemillasValor}" target="otrasSemillasValorField" targetPath="text" updateStrategy="0" immediately="false">
           <Property name="incompletePathValue" type="java.lang.String" value="null"/>
         </BindingProperty>
-        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="otrasSemillasValorField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="otrasSemillasValorField" targetPath="enabled" updateStrategy="0" immediately="false"/>
       </BindingProperties>
     </Component>
     <Component class="javax.swing.JTextField" name="plantasNormalesField">
@@ -669,7 +742,6 @@
       <BindingProperties>
         <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.cantidadDias}" target="cantidadDiasField" targetPath="text" updateStrategy="0" immediately="false">
           <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
-          <Property name="nullValue" type="java.lang.String" value="null"/>
           <Property name="incompletePathValue" type="java.lang.String" value="null"/>
         </BindingProperty>
         <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="cantidadDiasField" targetPath="enabled" updateStrategy="1" immediately="false"/>
@@ -820,6 +892,7 @@
       </Properties>
       <BindingProperties>
         <BindingProperty name="selectedItem" source="masterTable" sourcePath="${selectedElement.materiaInerteDescripcion1}" target="cboMID1" targetPath="selectedItem" updateStrategy="0" immediately="false"/>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="cboMID1" targetPath="enabled" updateStrategy="0" immediately="false"/>
       </BindingProperties>
     </Component>
     <Component class="javax.swing.JComboBox" name="cboMID2">
@@ -835,6 +908,90 @@
       </Properties>
       <BindingProperties>
         <BindingProperty name="selectedItem" source="masterTable" sourcePath="${selectedElement.materiaInerteDescripcion2}" target="cboMID2" targetPath="selectedItem" updateStrategy="0" immediately="false"/>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="cboMID2" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="materiaInerteValor3">
+      <BindingProperties>
+        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.materiaInerteValor3}" target="materiaInerteValor3" targetPath="text" updateStrategy="0" immediately="false">
+          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+          <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+        </BindingProperty>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="materiaInerteValor3" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="materiaInerteDescripcion2Label1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Materia Inerte Descripcion 3:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="materiaInerteValor2Label1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Materia Inerte Valor 3:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cboMID3">
+      <Properties>
+        <Property name="editable" type="boolean" value="true"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Semillas Vanas"/>
+            <StringItem index="1" value="Arena"/>
+            <StringItem index="2" value="Palitos"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="selectedItem" source="masterTable" sourcePath="${selectedElement.materiaInerteDescripcion3}" target="cboMID3" targetPath="selectedItem" updateStrategy="0" immediately="false"/>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="cboMID3" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="materiaInerteValor4">
+      <BindingProperties>
+        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.materiaInerteValor4}" target="materiaInerteValor4" targetPath="text" updateStrategy="0" immediately="false">
+          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+          <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+        </BindingProperty>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="materiaInerteValor4" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="materiaInerteDescripcion2Label2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Materia Inerte Descripcion 4:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="materiaInerteValor2Label2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Materia Inerte Valor 4:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cboMID4">
+      <Properties>
+        <Property name="editable" type="boolean" value="true"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Semillas Vanas"/>
+            <StringItem index="1" value="Arena"/>
+            <StringItem index="2" value="Palitos"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="selectedItem" source="masterTable" sourcePath="${selectedElement.materiaInerteDescripcion4}" target="cboMID4" targetPath="selectedItem" updateStrategy="0" immediately="false"/>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="cboMID4" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="otrasSemillasValorLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Observaciones:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="otrasSemillasValorField1">
+      <BindingProperties>
+        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.observaciones}" target="otrasSemillasValorField1" targetPath="text" updateStrategy="0" immediately="false">
+          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+        </BindingProperty>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="otrasSemillasValorField1" targetPath="enabled" updateStrategy="0" immediately="false"/>
       </BindingProperties>
     </Component>
   </SubComponents>
